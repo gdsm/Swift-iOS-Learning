@@ -17,49 +17,49 @@ import Foundation
 
 
 class PropertyWrappers {
-    
-    @propertyWrapper
-    struct TenOrLess {
-        let d= NSData(contentsOfFile: )
-        d.bytes
-        private var value: Int
-        var wrappedValue: Int {
-            get { return value }
-            set (newValue) { value = min(newValue, 10) }
-        }
-        init(_ initialValue: Int) {
-            value = initialValue
-        }
-    }
-
-    @propertyWrapper
-    struct DivisibleByTwo {
-        private var value: Int
-        var wrappedValue: Int {
-            get { return value }
-            set (newValue) {
-                if (newValue % 2) == 0 {
-                    value = newValue
-                }
-            }
-        }
-        init(_ initialValue: Int) {
-            value = initialValue
-        }
-    }
-
-    
-    public func debug() {
-        
-        @DivisibleByTwo(1) var prop: Int
-        
-        prop = 2
-        print(prop)
-
-        prop = 3
-        print(prop)
-
-        prop = 118
-        print(prop)
-    }
+//    
+//    @propertyWrapper
+//    struct TenOrLess {
+//        let d = NSData(contentsOfFile: )
+//        d.bytes
+//        private var value: Int
+//        var wrappedValue: Int {
+//            get { return value }
+//            set (newValue) { value = min(newValue, 10) }
+//        }
+//        init(_ initialValue: Int) {
+//            value = initialValue
+//        }
+//    }
+//
+//    @propertyWrapper
+//    struct DivisibleByTwo {
+//        private var value: Int
+//        var wrappedValue: Int {
+//            get { return value }
+//            set (newValue) {
+//                if (newValue % 2) == 0 {
+//                    value = newValue
+//                }
+//            }
+//        }
+//        init(_ initialValue: Int) {
+//            value = initialValue
+//        }
+//    }
+//
+//    
+//    public func debug() {
+//        
+//        @DivisibleByTwo(1) var prop: Int
+//        
+//        prop = 2
+//        print(prop)
+//
+//        prop = 3
+//        print(prop)
+//
+//        prop = 118
+//        print(prop)
+//    }
 }

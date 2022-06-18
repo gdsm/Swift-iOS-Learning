@@ -51,6 +51,7 @@
 		CE6531C320D8DEBC00CD9067 /* SwiftQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6531C220D8DEBC00CD9067 /* SwiftQuestions.swift */; };
 		CE6531C520D8EE2D00CD9067 /* Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6531C420D8EE2D00CD9067 /* Subscripts.swift */; };
 		CE67234A2271D6E900528856 /* Pointers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6723492271D6E900528856 /* Pointers.swift */; };
+		CE6EB59D2855F1840083C49D /* GoogleChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EB59C2855F1840083C49D /* GoogleChallenge.swift */; };
 		CE7CCA0520DBAE920018210D /* Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CCA0420DBAE920018210D /* Initializer.swift */; };
 		CE89B07822673E4200ED7F64 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE89B07722673E4200ED7F64 /* Session.swift */; };
 		CE8C3EDE226EF49F0084B16C /* SwiftCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C3EDD226EF49F0084B16C /* SwiftCore.swift */; };
@@ -144,6 +145,7 @@
 		CE6531C220D8DEBC00CD9067 /* SwiftQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftQuestions.swift; sourceTree = "<group>"; };
 		CE6531C420D8EE2D00CD9067 /* Subscripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscripts.swift; sourceTree = "<group>"; };
 		CE6723492271D6E900528856 /* Pointers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pointers.swift; sourceTree = "<group>"; };
+		CE6EB59C2855F1840083C49D /* GoogleChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleChallenge.swift; sourceTree = "<group>"; };
 		CE7CCA0420DBAE920018210D /* Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializer.swift; sourceTree = "<group>"; };
 		CE89B07722673E4200ED7F64 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		CE8C3EDD226EF49F0084B16C /* SwiftCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCore.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 			children = (
 				76916FC82331F5FD00D3D0AF /* SwiftLearningTests.swift */,
 				76916FCA2331F5FD00D3D0AF /* Info.plist */,
+				CE6EB59C2855F1840083C49D /* GoogleChallenge.swift */,
 			);
 			path = SwiftLearningTests;
 			sourceTree = "<group>";
@@ -542,6 +545,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6EB59D2855F1840083C49D /* GoogleChallenge.swift in Sources */,
 				76916FC92331F5FD00D3D0AF /* SwiftLearningTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
