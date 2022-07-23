@@ -259,14 +259,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "3BC2ED39-269F-470C-8B49-9524AE393E1C - 9b66e215e75ae116"
+                  uuid = "3BC2ED39-269F-470C-8B49-9524AE393E1C - 1e98d21d4bdaa375"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "SwiftLearning.BinaryGap.solution(Swift.Int) -&gt; Swift.Int"
                   moduleName = "SwiftLearning"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/gagan/Desktop/gagan_dev/learning/Swift/SwiftTest/Learn/SwiftLearning/SwiftLearning/Codility/BinaryGap.swift"
+                  urlString = "file:///Users/gagan/Desktop/gagan_dev/learning/gitlearningrepos/iOSLearning/SwiftLearning/Codility/BinaryGap.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
@@ -274,14 +274,14 @@
                   offsetFromSymbolStart = "364">
                </Location>
                <Location
-                  uuid = "3BC2ED39-269F-470C-8B49-9524AE393E1C - 9b66e215e75ae116"
+                  uuid = "3BC2ED39-269F-470C-8B49-9524AE393E1C - 1e98d21d4bdaa375"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "SwiftLearning.BinaryGap.solution(Swift.Int) -&gt; Swift.Int"
                   moduleName = "SwiftLearning"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/gagan/Desktop/gagan_dev/learning/Swift/SwiftTest/Learn/SwiftLearning/SwiftLearning/Codility/BinaryGap.swift"
+                  urlString = "file:///Users/gagan/Desktop/gagan_dev/learning/gitlearningrepos/iOSLearning/SwiftLearning/Codility/BinaryGap.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
@@ -467,8 +467,8 @@
             filePath = "SwiftLearning/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "maximumQuality(packets:channels:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -483,8 +483,8 @@
             filePath = "SwiftLearning/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "maximumQuality(packets:channels:)"
             landmarkType = "7">
          </BreakpointContent>

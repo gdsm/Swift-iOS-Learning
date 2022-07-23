@@ -1,6 +1,7 @@
 
 
 import UIKit
+import kmmLearning
 
 
 class ViewController: UIViewController {
@@ -26,6 +27,7 @@ class ViewController: UIViewController {
 //        TestSorting.testScenario_1();
         debug();
 //        debugSets();
+        debugKmm()
     }
 
     
@@ -233,6 +235,11 @@ class ViewController: UIViewController {
     func debugSets() {
         let s = SwiftSet()
         s.debug();
+    }
+    
+    func debugKmm() {
+        let v = kmmLearning.HelloKMM()
+        print(v.hello(msg: "Hello from iOS Native"))
     }
 }
 
