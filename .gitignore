@@ -55,6 +55,8 @@ xcuserdata
 # Xcode 7
 *.xcscmblueprint
 
+.xcbkptlist
+
 ####
 # AppCode
 .idea/

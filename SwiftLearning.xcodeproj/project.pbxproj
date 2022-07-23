@@ -57,6 +57,8 @@
 		CE8C3EDE226EF49F0084B16C /* SwiftCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C3EDD226EF49F0084B16C /* SwiftCore.swift */; };
 		CE8C3EE0226F2F040084B16C /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C3EDF226F2F040084B16C /* Dispatch.swift */; };
 		CE9C126E20E4F952006D898D /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C126D20E4F952006D898D /* Generics.swift */; };
+		CEA56D26288C1355007087A9 /* kmmLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA56D24288C133C007087A9 /* kmmLearning.framework */; };
+		CEA56D27288C1355007087A9 /* kmmLearning.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEA56D24288C133C007087A9 /* kmmLearning.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CEA5E8AD228C1D7900609EA7 /* BinaryGap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5E8AC228C1D7900609EA7 /* BinaryGap.swift */; };
 		CEA5E8AF228C21E400609EA7 /* ArrayEnumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5E8AE228C21E400609EA7 /* ArrayEnumeration.swift */; };
 		CEA90A4620DA7D7B00E6BED6 /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA90A4520DA7D7B00E6BED6 /* Inheritance.swift */; };
@@ -92,6 +94,20 @@
 			remoteInfo = SwiftLearning;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEA56D28288C1355007087A9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CEA56D27288C1355007087A9 /* kmmLearning.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		762E116723262EB6000F5349 /* MyDispatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDispatch.h; sourceTree = "<group>"; };
@@ -151,6 +167,7 @@
 		CE8C3EDD226EF49F0084B16C /* SwiftCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCore.swift; sourceTree = "<group>"; };
 		CE8C3EDF226F2F040084B16C /* Dispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dispatch.swift; sourceTree = "<group>"; };
 		CE9C126D20E4F952006D898D /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		CEA56D24288C133C007087A9 /* kmmLearning.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = kmmLearning.framework; path = kmmLearning/build/bin/iosSimulatorArm64/debugFramework/kmmLearning.framework; sourceTree = "<group>"; };
 		CEA5E8AC228C1D7900609EA7 /* BinaryGap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryGap.swift; sourceTree = "<group>"; };
 		CEA5E8AE228C21E400609EA7 /* ArrayEnumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayEnumeration.swift; sourceTree = "<group>"; };
 		CEA90A4520DA7D7B00E6BED6 /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
@@ -204,6 +221,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA56D26288C1355007087A9 /* kmmLearning.framework in Frameworks */,
 				CEFF57882270718C00FF5C72 /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +326,7 @@
 		CEACC44F20C921E200CD5DF6 = {
 			isa = PBXGroup;
 			children = (
+				CEA56D24288C133C007087A9 /* kmmLearning.framework */,
 				CEACC45A20C921E200CD5DF6 /* SwiftLearning */,
 				CE583A462265AF32002D6A06 /* Swift-TV */,
 				76916FC72331F5FD00D3D0AF /* SwiftLearningTests */,
@@ -451,9 +470,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEACC46A20C921E200CD5DF6 /* Build configuration list for PBXNativeTarget "SwiftLearning" */;
 			buildPhases = (
+				CEA56D23288C12EB007087A9 /* ShellScript */,
 				CEACC45420C921E200CD5DF6 /* Sources */,
 				CEACC45520C921E200CD5DF6 /* Frameworks */,
 				CEACC45620C921E200CD5DF6 /* Resources */,
+				CEA56D28288C1355007087A9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -539,6 +560,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEA56D23288C12EB007087A9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$SRCROOT/kmmLearning\"\n./gradlew :embedAndSignAppleFrameworkForXcode\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		76916FC22331F5FB00D3D0AF /* Sources */ = {
@@ -860,6 +901,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U6T9BBGFE9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/kmmLearning/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+				);
 				INFOPLIST_FILE = SwiftLearning/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -881,6 +926,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U6T9BBGFE9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/kmmLearning/build/$(CONFIGURATION)/$(SDK_NAME)",
+				);
 				INFOPLIST_FILE = SwiftLearning/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
